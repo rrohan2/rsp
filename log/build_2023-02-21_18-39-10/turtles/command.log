@@ -1,0 +1,6 @@
+Invoking command in '/home/ritwik/rsp/build/turtles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/ritwik/rsp/rrohan2/03/turtles -DCMAKE_INSTALL_PREFIX=/home/ritwik/rsp/install/turtles
+Invoked command in '/home/ritwik/rsp/build/turtles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/ritwik/rsp/rrohan2/03/turtles -DCMAKE_INSTALL_PREFIX=/home/ritwik/rsp/install/turtles
+Invoking command in '/home/ritwik/rsp/build/turtles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ritwik/rsp/build/turtles -- -j8 -l8
+Invoked command in '/home/ritwik/rsp/build/turtles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ritwik/rsp/build/turtles -- -j8 -l8
+Invoking command in '/home/ritwik/rsp/build/turtles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ritwik/rsp/build/turtles
+Invoked command in '/home/ritwik/rsp/build/turtles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ritwik/rsp/build/turtles

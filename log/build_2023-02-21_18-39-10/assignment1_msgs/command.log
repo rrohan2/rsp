@@ -1,0 +1,6 @@
+Invoking command in '/home/ritwik/rsp/build/assignment1_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/ritwik/rsp/rrohan2/01/assignment1_msgs -DCMAKE_INSTALL_PREFIX=/home/ritwik/rsp/install/assignment1_msgs
+Invoked command in '/home/ritwik/rsp/build/assignment1_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/ritwik/rsp/rrohan2/01/assignment1_msgs -DCMAKE_INSTALL_PREFIX=/home/ritwik/rsp/install/assignment1_msgs
+Invoking command in '/home/ritwik/rsp/build/assignment1_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ritwik/rsp/build/assignment1_msgs -- -j8 -l8
+Invoked command in '/home/ritwik/rsp/build/assignment1_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ritwik/rsp/build/assignment1_msgs -- -j8 -l8
+Invoking command in '/home/ritwik/rsp/build/assignment1_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ritwik/rsp/build/assignment1_msgs
+Invoked command in '/home/ritwik/rsp/build/assignment1_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ritwik/rsp/build/assignment1_msgs

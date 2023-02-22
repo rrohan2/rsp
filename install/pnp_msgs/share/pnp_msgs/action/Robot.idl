@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from pnp_msgs/action/Robot.action
+// generated code does not contain a copyright notice
+
+
+module pnp_msgs {
+  module action {
+    typedef float float__2[2];
+    @verbatim (language="comment", text=
+      "goal")
+    struct Robot_Goal {
+      float__2 joint_position;
+    };
+    struct Robot_Result {
+      @verbatim (language="comment", text=
+        "result")
+      uint8 result;
+    };
+    struct Robot_Feedback {
+      @verbatim (language="comment", text=
+        "feedback")
+      float robot_progress;
+    };
+  };
+};

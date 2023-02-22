@@ -1,0 +1,8 @@
+{
+  "package_name": "pnp_msgs",
+  "non_idl_tuples": [
+    "/home/ritwik/rsp/rrohan2/02/pnp_msgs:action/Gripper.action",
+    "/home/ritwik/rsp/rrohan2/02/pnp_msgs:action/PickAndPlace.action",
+    "/home/ritwik/rsp/rrohan2/02/pnp_msgs:action/Robot.action"
+  ]
+}
