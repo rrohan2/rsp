@@ -2,8 +2,7 @@
 <include file="$(find-pkg-share turtles)/launch/two_turtles.launch"/>
 <include file="$(find-pkg-share turtles)/launch/two_broadcasters.launch"/>
 
-<executable cmd="ros2 run rviz2 rviz2 config.rviz" cwd="/home" launch-pr
-efix="time" output="screen"/>
+<executable cmd="ros2 run rviz2 rviz2 config.rviz" cwd="/home" launch-prefix="time" output="screen"/>
 
 <!-- <node type="rviz" name="rviz" pkg="rviz" args="-d $(find package_name)/config/config_file.rviz" /> -->
 <!-- <node
