@@ -1,0 +1,98 @@
+[0.047s] Invoking command in '/home/aditya/rsp/build/pnp_actionlib': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/home/aditya/rsp/install/assignment1_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu /usr/bin/cmake /home/aditya/rsp/rrohan2/02/pnp_actionlib -DCMAKE_INSTALL_PREFIX=/home/aditya/rsp/install/pnp_actionlib
+[0.134s] -- The C compiler identification is GNU 9.4.0
+[0.218s] -- The CXX compiler identification is GNU 9.4.0
+[0.225s] -- Check for working C compiler: /usr/bin/cc
+[0.325s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.326s] -- Detecting C compiler ABI info
+[0.434s] -- Detecting C compiler ABI info - done
+[0.453s] -- Detecting C compile features
+[0.454s] -- Detecting C compile features - done
+[0.458s] -- Check for working CXX compiler: /usr/bin/c++
+[0.573s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.575s] -- Detecting CXX compiler ABI info
+[0.696s] -- Detecting CXX compiler ABI info - done
+[0.712s] -- Detecting CXX compile features
+[0.712s] -- Detecting CXX compile features - done
+[0.716s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.750s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.750s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.881s] -- Found pnp_msgs: 0.0.0 (/home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake)
+[0.939s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.955s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.156s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.226s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.624s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.751s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.758s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.805s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.807s] -- Looking for pthread.h
+[1.934s] -- Looking for pthread.h - found
+[1.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.057s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.058s] -- Looking for pthread_create in pthreads
+[2.171s] -- Looking for pthread_create in pthreads - not found
+[2.172s] -- Looking for pthread_create in pthread
+[2.309s] -- Looking for pthread_create in pthread - found
+[2.312s] -- Found Threads: TRUE  
+[2.702s] -- Found rclcpp_action: 9.2.2 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[2.793s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.931s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.934s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.935s] -- Configured cppcheck include dirs: /home/aditya/rsp/rrohan2/02/pnp_actionlib/include
+[2.935s] -- Configured cppcheck exclude dirs and/or files: 
+[2.937s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.937s] -- Configured cpplint exclude dirs and/or files: 
+[2.939s] -- Added test 'lint_cmake' to check CMake code style
+[2.941s] -- Added test 'uncrustify' to check C / C++ code style
+[2.942s] -- Configured uncrustify additional arguments: 
+[2.943s] -- Added test 'xmllint' to check XML markup files
+[2.949s] -- Configuring done
+[2.972s] -- Generating done
+[2.974s] -- Build files have been written to: /home/aditya/rsp/build/pnp_actionlib
+[2.989s] Invoked command in '/home/aditya/rsp/build/pnp_actionlib' returned '0': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/home/aditya/rsp/install/assignment1_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu /usr/bin/cmake /home/aditya/rsp/rrohan2/02/pnp_actionlib -DCMAKE_INSTALL_PREFIX=/home/aditya/rsp/install/pnp_actionlib
+[2.993s] Invoking command in '/home/aditya/rsp/build/pnp_actionlib': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/home/aditya/rsp/install/assignment1_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu /usr/bin/cmake --build /home/aditya/rsp/build/pnp_actionlib -- -j8 -l8
+[3.054s] [35m[1mScanning dependencies of target pnp[0m
+[3.125s] [ 12%] [32mBuilding CXX object CMakeFiles/pnp.dir/src/gripper_action.cpp.o[0m
+[3.128s] [ 25%] [32mBuilding CXX object CMakeFiles/pnp.dir/src/robot_action.cpp.o[0m
+[3.129s] [ 37%] [32mBuilding CXX object CMakeFiles/pnp.dir/src/pnp_action.cpp.o[0m
+[12.321s] [ 50%] [32m[1mLinking CXX shared library libpnp.so[0m
+[12.747s] [ 50%] Built target pnp
+[12.761s] [35m[1mScanning dependencies of target server[0m
+[12.762s] [35m[1mScanning dependencies of target client[0m
+[12.813s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/pnp_client.cpp.o[0m
+[12.813s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/pnp_server.cpp.o[0m
+[15.755s] [ 87%] [32m[1mLinking CXX executable client[0m
+[15.838s] [100%] [32m[1mLinking CXX executable server[0m
+[16.025s] [100%] Built target client
+[16.128s] [100%] Built target server
+[16.145s] Invoked command in '/home/aditya/rsp/build/pnp_actionlib' returned '0': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/home/aditya/rsp/install/assignment1_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu /usr/bin/cmake --build /home/aditya/rsp/build/pnp_actionlib -- -j8 -l8
+[16.201s] Invoking command in '/home/aditya/rsp/build/pnp_actionlib': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/home/aditya/rsp/install/assignment1_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu /usr/bin/cmake --install /home/aditya/rsp/build/pnp_actionlib
+[16.213s] -- Install configuration: ""
+[16.213s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/include
+[16.213s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/include/pnp_actionlib
+[16.213s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/include/pnp_actionlib/robot_action.hpp
+[16.213s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/include/pnp_actionlib/pnp_action.hpp
+[16.213s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/include/pnp_actionlib/gripper_action.hpp
+[16.213s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/lib/libpnp.so
+[16.220s] -- Set runtime path of "/home/aditya/rsp/install/pnp_actionlib/lib/libpnp.so" to ""
+[16.220s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/lib/pnp_actionlib/server
+[16.221s] -- Set runtime path of "/home/aditya/rsp/install/pnp_actionlib/lib/pnp_actionlib/server" to ""
+[16.221s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/lib/pnp_actionlib/client
+[16.222s] -- Set runtime path of "/home/aditya/rsp/install/pnp_actionlib/lib/pnp_actionlib/client" to ""
+[16.222s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/ament_index/resource_index/package_run_dependencies/pnp_actionlib
+[16.222s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/ament_index/resource_index/parent_prefix_path/pnp_actionlib
+[16.222s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/environment/ament_prefix_path.sh
+[16.223s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/environment/ament_prefix_path.dsv
+[16.223s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/environment/path.sh
+[16.223s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/environment/path.dsv
+[16.223s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/local_setup.bash
+[16.223s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/local_setup.sh
+[16.223s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/local_setup.zsh
+[16.224s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/local_setup.dsv
+[16.224s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/package.dsv
+[16.224s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/ament_index/resource_index/packages/pnp_actionlib
+[16.224s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/cmake/pnp_actionlibConfig.cmake
+[16.224s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/cmake/pnp_actionlibConfig-version.cmake
+[16.224s] -- Installing: /home/aditya/rsp/install/pnp_actionlib/share/pnp_actionlib/package.xml
+[16.230s] Invoked command in '/home/aditya/rsp/build/pnp_actionlib' returned '0': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/home/aditya/rsp/install/assignment1_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu /usr/bin/cmake --install /home/aditya/rsp/build/pnp_actionlib

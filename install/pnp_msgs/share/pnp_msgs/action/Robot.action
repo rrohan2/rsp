@@ -1,0 +1,12 @@
+#goal
+float32[2] joint_position
+
+---
+
+#result
+uint8 result
+
+---
+
+#feedback
+float32 robot_progress

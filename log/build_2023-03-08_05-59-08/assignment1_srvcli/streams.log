@@ -1,0 +1,95 @@
+[0.040s] Invoking command in '/home/aditya/rsp/build/assignment1_srvcli': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/assignment1_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/assignment1_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PYTHONPATH=/home/aditya/rsp/install/assignment1_msgs/lib/python3.8/site-packages:/home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/aditya/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake /home/aditya/rsp/rrohan2/01/assignment1_srvcli -DCMAKE_INSTALL_PREFIX=/home/aditya/rsp/install/assignment1_srvcli
+[0.145s] -- The C compiler identification is GNU 9.4.0
+[0.250s] -- The CXX compiler identification is GNU 9.4.0
+[0.259s] -- Check for working C compiler: /usr/bin/cc
+[0.381s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.382s] -- Detecting C compiler ABI info
+[0.511s] -- Detecting C compiler ABI info - done
+[0.538s] -- Detecting C compile features
+[0.538s] -- Detecting C compile features - done
+[0.543s] -- Check for working CXX compiler: /usr/bin/c++
+[0.674s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.678s] -- Detecting CXX compiler ABI info
+[0.793s] -- Detecting CXX compiler ABI info - done
+[0.807s] -- Detecting CXX compile features
+[0.807s] -- Detecting CXX compile features - done
+[0.810s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.854s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.854s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.986s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.045s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.054s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.195s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.258s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.541s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.548s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.590s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.591s] -- Looking for pthread.h
+[1.703s] -- Looking for pthread.h - found
+[1.703s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.812s] -- Looking for pthread_create in pthreads
+[1.893s] -- Looking for pthread_create in pthreads - not found
+[1.893s] -- Looking for pthread_create in pthread
+[1.978s] -- Looking for pthread_create in pthread - found
+[1.979s] -- Found Threads: TRUE  
+[2.192s] -- Found assignment1_msgs: 0.0.0 (/home/aditya/rsp/install/assignment1_msgs/share/assignment1_msgs/cmake)
+[2.207s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.311s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.313s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.313s] -- Configured cppcheck include dirs: /home/aditya/rsp/rrohan2/01/assignment1_srvcli/include
+[2.314s] -- Configured cppcheck exclude dirs and/or files: 
+[2.315s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.316s] -- Configured cpplint exclude dirs and/or files: 
+[2.317s] -- Added test 'lint_cmake' to check CMake code style
+[2.319s] -- Added test 'uncrustify' to check C / C++ code style
+[2.319s] -- Configured uncrustify additional arguments: 
+[2.320s] -- Added test 'xmllint' to check XML markup files
+[2.325s] -- Configuring done
+[2.346s] -- Generating done
+[2.348s] -- Build files have been written to: /home/aditya/rsp/build/assignment1_srvcli
+[2.364s] Invoked command in '/home/aditya/rsp/build/assignment1_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/assignment1_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/assignment1_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PYTHONPATH=/home/aditya/rsp/install/assignment1_msgs/lib/python3.8/site-packages:/home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/aditya/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake /home/aditya/rsp/rrohan2/01/assignment1_srvcli -DCMAKE_INSTALL_PREFIX=/home/aditya/rsp/install/assignment1_srvcli
+[2.371s] Invoking command in '/home/aditya/rsp/build/assignment1_srvcli': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/assignment1_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/assignment1_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PYTHONPATH=/home/aditya/rsp/install/assignment1_msgs/lib/python3.8/site-packages:/home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/aditya/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --build /home/aditya/rsp/build/assignment1_srvcli -- -j8 -l8
+[2.426s] [35m[1mScanning dependencies of target srvcli[0m
+[2.477s] [ 14%] [32mBuilding CXX object CMakeFiles/srvcli.dir/src/client.cpp.o[0m
+[2.480s] [ 28%] [32mBuilding CXX object CMakeFiles/srvcli.dir/src/server.cpp.o[0m
+[8.198s] [ 42%] [32m[1mLinking CXX shared library libsrvcli.so[0m
+[8.460s] [ 42%] Built target srvcli
+[8.478s] [35m[1mScanning dependencies of target srv[0m
+[8.478s] [35m[1mScanning dependencies of target cli[0m
+[8.545s] [ 57%] [32mBuilding CXX object CMakeFiles/srv.dir/src/server_node.cpp.o[0m
+[8.546s] [ 71%] [32mBuilding CXX object CMakeFiles/cli.dir/src/client_node.cpp.o[0m
+[12.125s] [ 85%] [32m[1mLinking CXX executable cli[0m
+[12.203s] [100%] [32m[1mLinking CXX executable srv[0m
+[12.425s] [100%] Built target cli
+[12.439s] [100%] Built target srv
+[12.455s] Invoked command in '/home/aditya/rsp/build/assignment1_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/assignment1_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/assignment1_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PYTHONPATH=/home/aditya/rsp/install/assignment1_msgs/lib/python3.8/site-packages:/home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/aditya/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --build /home/aditya/rsp/build/assignment1_srvcli -- -j8 -l8
+[12.504s] Invoking command in '/home/aditya/rsp/build/assignment1_srvcli': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/assignment1_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/assignment1_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PYTHONPATH=/home/aditya/rsp/install/assignment1_msgs/lib/python3.8/site-packages:/home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/aditya/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --install /home/aditya/rsp/build/assignment1_srvcli
+[12.516s] -- Install configuration: ""
+[12.516s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/include
+[12.516s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/include/assignment1_srvcli
+[12.516s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/include/assignment1_srvcli/client.hpp
+[12.517s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/include/assignment1_srvcli/server.hpp
+[12.517s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/lib/libsrvcli.so
+[12.518s] -- Set runtime path of "/home/aditya/rsp/install/assignment1_srvcli/lib/libsrvcli.so" to ""
+[12.518s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/lib/assignment1_srvcli/srv
+[12.519s] -- Set runtime path of "/home/aditya/rsp/install/assignment1_srvcli/lib/assignment1_srvcli/srv" to ""
+[12.519s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/lib/assignment1_srvcli/cli
+[12.520s] -- Set runtime path of "/home/aditya/rsp/install/assignment1_srvcli/lib/assignment1_srvcli/cli" to ""
+[12.520s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/ament_index/resource_index/package_run_dependencies/assignment1_srvcli
+[12.520s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/ament_index/resource_index/parent_prefix_path/assignment1_srvcli
+[12.520s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/environment/ament_prefix_path.sh
+[12.521s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/environment/ament_prefix_path.dsv
+[12.521s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/environment/path.sh
+[12.521s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/environment/path.dsv
+[12.521s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/local_setup.bash
+[12.521s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/local_setup.sh
+[12.522s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/local_setup.zsh
+[12.522s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/local_setup.dsv
+[12.522s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/package.dsv
+[12.522s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/ament_index/resource_index/packages/assignment1_srvcli
+[12.522s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/cmake/assignment1_srvcliConfig.cmake
+[12.523s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/cmake/assignment1_srvcliConfig-version.cmake
+[12.523s] -- Installing: /home/aditya/rsp/install/assignment1_srvcli/share/assignment1_srvcli/package.xml
+[12.531s] Invoked command in '/home/aditya/rsp/build/assignment1_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/assignment1_msgs:/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic LD_LIBRARY_PATH=/home/aditya/rsp/install/assignment1_msgs/lib:/home/aditya/rsp/install/pnp_actionlib/lib:/home/aditya/rsp/install/pnp_msgs/lib:/home/aditya/rsp/install/assignment1_subpub/lib:/home/aditya/rsp/install/assignment1_srvcli/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/aditya/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PYTHONPATH=/home/aditya/rsp/install/assignment1_msgs/lib/python3.8/site-packages:/home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/aditya/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --install /home/aditya/rsp/build/assignment1_srvcli

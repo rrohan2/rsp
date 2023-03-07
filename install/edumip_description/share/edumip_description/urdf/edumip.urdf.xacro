@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="EDUMIP">
+
+  <xacro:include filename="$(find edumip_description)/urdf/edumip.xacro" />
+  <xacro:include filename="$(find edumip_description)/urdf/hc_sr04.xacro" />
+
+  
+  <xacro:arg name="name" default="sonar"/>
+  <xacro:arg name="parent" default="base_link"/>
+
+  <xacro:edumip />
+  <xacro:hc_sr04 name="$(arg name)" parent="$(arg parent)" >
+    <origin xyz="0 0 0." rpy="${PI/2} 0 ${PI/2}"/>
+  </xacro:hc_sr04>
+  
+</robot>

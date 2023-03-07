@@ -1,0 +1,7 @@
+{
+  "package_name": "assignment1_msgs",
+  "non_idl_tuples": [
+    "/home/aditya/rsp/rrohan2/01/assignment1_msgs:msg/OddNo.msg",
+    "/home/aditya/rsp/rrohan2/01/assignment1_msgs:srv/Average.srv"
+  ]
+}

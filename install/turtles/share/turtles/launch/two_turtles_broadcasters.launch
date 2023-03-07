@@ -1,0 +1,10 @@
+<launch>
+<include file="$(find-pkg-share turtles)/launch/two_turtles.launch"/>
+<include file="$(find-pkg-share turtles)/launch/two_broadcasters.launch"/>
+
+<executable cmd="ros2 run rviz2 rviz2 rvizconfig.rviz" cwd="/home" launch-prefix="time" output="screen"/>
+
+
+</launch>
+
+

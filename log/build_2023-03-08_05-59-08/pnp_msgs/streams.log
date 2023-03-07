@@ -1,0 +1,271 @@
+[0.057s] Invoking command in '/home/aditya/rsp/build/pnp_msgs': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake /home/aditya/rsp/rrohan2/02/pnp_msgs -DCMAKE_INSTALL_PREFIX=/home/aditya/rsp/install/pnp_msgs
+[0.157s] -- The C compiler identification is GNU 9.4.0
+[0.256s] -- The CXX compiler identification is GNU 9.4.0
+[0.264s] -- Check for working C compiler: /usr/bin/cc
+[0.371s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.373s] -- Detecting C compiler ABI info
+[0.489s] -- Detecting C compiler ABI info - done
+[0.508s] -- Detecting C compile features
+[0.509s] -- Detecting C compile features - done
+[0.512s] -- Check for working CXX compiler: /usr/bin/c++
+[0.636s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.638s] -- Detecting CXX compiler ABI info
+[0.774s] -- Detecting CXX compiler ABI info - done
+[0.798s] -- Detecting CXX compile features
+[0.799s] -- Detecting CXX compile features - done
+[0.802s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.842s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.842s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.945s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.959s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.123s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.174s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.389s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.710s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[1.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.023s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.061s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.064s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[2.106s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.107s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.107s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.149s] -- Found PythonExtra: .so  
+[2.247s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.277s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.281s] -- Added test 'lint_cmake' to check CMake code style
+[2.283s] -- Added test 'xmllint' to check XML markup files
+[2.292s] -- Configuring done
+[2.387s] -- Generating done
+[2.392s] -- Build files have been written to: /home/aditya/rsp/build/pnp_msgs
+[2.407s] Invoked command in '/home/aditya/rsp/build/pnp_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake /home/aditya/rsp/rrohan2/02/pnp_msgs -DCMAKE_INSTALL_PREFIX=/home/aditya/rsp/install/pnp_msgs
+[2.411s] Invoking command in '/home/aditya/rsp/build/pnp_msgs': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --build /home/aditya/rsp/build/pnp_msgs -- -j8 -l8
+[2.479s] [35m[1mScanning dependencies of target pnp_msgs__cpp[0m
+[2.481s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.498s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.638s] [35m[1mScanning dependencies of target pnp_msgs__rosidl_generator_c[0m
+[4.689s] [  6%] [32mBuilding C object CMakeFiles/pnp_msgs__rosidl_generator_c.dir/rosidl_generator_c/pnp_msgs/action/detail/pick_and_place__functions.c.o[0m
+[4.697s] [  8%] [32mBuilding C object CMakeFiles/pnp_msgs__rosidl_generator_c.dir/rosidl_generator_c/pnp_msgs/action/detail/gripper__functions.c.o[0m
+[4.716s] [ 10%] [32mBuilding C object CMakeFiles/pnp_msgs__rosidl_generator_c.dir/rosidl_generator_c/pnp_msgs/action/detail/robot__functions.c.o[0m
+[4.887s] [ 10%] Built target pnp_msgs__cpp
+[4.920s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.947s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.964s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.988s] [ 19%] [32m[1mLinking C shared library libpnp_msgs__rosidl_generator_c.so[0m
+[5.072s] [ 19%] Built target pnp_msgs__rosidl_generator_c
+[5.098s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.102s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.043s] [35m[1mScanning dependencies of target pnp_msgs__rosidl_typesupport_cpp[0m
+[6.074s] [ 25%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pnp_msgs/action/gripper__type_support.cpp.o[0m
+[6.116s] [ 27%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pnp_msgs/action/pick_and_place__type_support.cpp.o[0m
+[6.133s] [ 29%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pnp_msgs/action/robot__type_support.cpp.o[0m
+[6.212s] [35m[1mScanning dependencies of target pnp_msgs__rosidl_typesupport_c[0m
+[6.295s] [ 31%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pnp_msgs/action/gripper__type_support.cpp.o[0m
+[6.312s] [ 34%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pnp_msgs/action/pick_and_place__type_support.cpp.o[0m
+[6.489s] [ 36%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pnp_msgs/action/robot__type_support.cpp.o[0m
+[6.622s] [35m[1mScanning dependencies of target pnp_msgs__rosidl_typesupport_introspection_cpp[0m
+[6.680s] [ 38%] [32m[1mLinking CXX shared library libpnp_msgs__rosidl_typesupport_c.so[0m
+[6.736s] [ 40%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pnp_msgs/action/detail/gripper__type_support.cpp.o[0m
+[6.777s] [ 42%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pnp_msgs/action/detail/pick_and_place__type_support.cpp.o[0m
+[6.813s] [ 42%] Built target pnp_msgs__rosidl_typesupport_c
+[6.824s] [35m[1mScanning dependencies of target pnp_msgs__rosidl_typesupport_introspection_c[0m
+[6.855s] [ 44%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pnp_msgs/action/detail/robot__type_support.cpp.o[0m
+[6.903s] [ 46%] [32mBuilding C object CMakeFiles/pnp_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pnp_msgs/action/detail/gripper__type_support.c.o[0m
+[6.938s] [35m[1mScanning dependencies of target pnp_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[7.001s] [ 48%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pnp_msgs/action/detail/dds_fastrtps/gripper__type_support.cpp.o[0m
+[7.115s] [ 51%] [32mBuilding C object CMakeFiles/pnp_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pnp_msgs/action/detail/pick_and_place__type_support.c.o[0m
+[7.237s] [ 53%] [32mBuilding C object CMakeFiles/pnp_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pnp_msgs/action/detail/robot__type_support.c.o[0m
+[7.259s] [ 55%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pnp_msgs/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.o[0m
+[7.342s] [ 57%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pnp_msgs/action/detail/dds_fastrtps/robot__type_support.cpp.o[0m
+[7.406s] [ 59%] [32m[1mLinking C shared library libpnp_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.575s] [ 61%] [32m[1mLinking CXX shared library libpnp_msgs__rosidl_typesupport_cpp.so[0m
+[7.583s] [ 61%] Built target pnp_msgs__rosidl_typesupport_introspection_c
+[7.764s] [ 61%] Built target pnp_msgs__rosidl_typesupport_cpp
+[8.145s] [ 63%] [32m[1mLinking CXX shared library libpnp_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.332s] [ 63%] Built target pnp_msgs__rosidl_typesupport_introspection_cpp
+[8.876s] [ 65%] [32m[1mLinking CXX shared library libpnp_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.032s] [ 65%] Built target pnp_msgs__rosidl_typesupport_fastrtps_cpp
+[9.045s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.230s] [35m[1mScanning dependencies of target pnp_msgs__rosidl_typesupport_fastrtps_c[0m
+[10.263s] [ 70%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pnp_msgs/action/detail/pick_and_place__type_support_c.cpp.o[0m
+[10.264s] [ 72%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pnp_msgs/action/detail/gripper__type_support_c.cpp.o[0m
+[10.264s] [ 74%] [32mBuilding CXX object CMakeFiles/pnp_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pnp_msgs/action/detail/robot__type_support_c.cpp.o[0m
+[10.971s] [ 76%] [32m[1mLinking CXX shared library libpnp_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.109s] [ 76%] Built target pnp_msgs__rosidl_typesupport_fastrtps_c
+[11.123s] [35m[1mScanning dependencies of target pnp_msgs[0m
+[11.138s] [ 76%] Built target pnp_msgs
+[11.152s] [35m[1mScanning dependencies of target pnp_msgs__py[0m
+[11.167s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.887s] [ 78%] Built target pnp_msgs__py
+[14.909s] [35m[1mScanning dependencies of target pnp_msgs__python[0m
+[14.955s] [ 82%] [32mBuilding C object CMakeFiles/pnp_msgs__python.dir/rosidl_generator_py/pnp_msgs/action/_gripper_s.c.o[0m
+[14.955s] [ 82%] [32mBuilding C object CMakeFiles/pnp_msgs__python.dir/rosidl_generator_py/pnp_msgs/action/_pick_and_place_s.c.o[0m
+[14.965s] [ 85%] [32mBuilding C object CMakeFiles/pnp_msgs__python.dir/rosidl_generator_py/pnp_msgs/action/_robot_s.c.o[0m
+[15.251s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/pnp_msgs/libpnp_msgs__python.so[0m
+[15.347s] [ 87%] Built target pnp_msgs__python
+[15.369s] [35m[1mScanning dependencies of target pnp_msgs__rosidl_typesupport_c__pyext[0m
+[15.372s] [35m[1mScanning dependencies of target pnp_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[15.372s] [35m[1mScanning dependencies of target pnp_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[15.416s] [ 89%] [32mBuilding C object CMakeFiles/pnp_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pnp_msgs/_pnp_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.417s] [ 91%] [32mBuilding C object CMakeFiles/pnp_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pnp_msgs/_pnp_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.428s] [ 93%] [32mBuilding C object CMakeFiles/pnp_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pnp_msgs/_pnp_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.792s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/pnp_msgs/pnp_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.792s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/pnp_msgs/pnp_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.798s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pnp_msgs/pnp_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.893s] [100%] Built target pnp_msgs__rosidl_typesupport_c__pyext
+[15.901s] [100%] Built target pnp_msgs__rosidl_typesupport_introspection_c__pyext
+[15.998s] [100%] Built target pnp_msgs__rosidl_typesupport_fastrtps_c__pyext
+[16.025s] Invoked command in '/home/aditya/rsp/build/pnp_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --build /home/aditya/rsp/build/pnp_msgs -- -j8 -l8
+[16.200s] Invoking command in '/home/aditya/rsp/build/pnp_msgs': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --install /home/aditya/rsp/build/pnp_msgs
+[16.215s] -- Install configuration: ""
+[16.216s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/ament_index/resource_index/rosidl_interfaces/pnp_msgs
+[16.216s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs
+[16.216s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/msg
+[16.217s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.217s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action
+[16.217s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/pick_and_place.h
+[16.217s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/gripper.h
+[16.218s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/robot.h
+[16.218s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail
+[16.218s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__functions.h
+[16.218s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__functions.h
+[16.219s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__functions.c
+[16.219s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__type_support.h
+[16.219s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__struct.h
+[16.219s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__struct.h
+[16.220s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__type_support.h
+[16.220s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__functions.c
+[16.220s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__functions.c
+[16.220s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__functions.h
+[16.221s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__struct.h
+[16.221s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__type_support.h
+[16.221s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/environment/library_path.sh
+[16.221s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/environment/library_path.dsv
+[16.221s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_generator_c.so
+[16.222s] -- Set runtime path of "/home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_generator_c.so" to ""
+[16.222s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs
+[16.222s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/msg
+[16.222s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.223s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action
+[16.223s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail
+[16.223s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__rosidl_typesupport_fastrtps_c.h
+[16.223s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__rosidl_typesupport_fastrtps_c.h
+[16.223s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__rosidl_typesupport_fastrtps_c.h
+[16.224s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_fastrtps_c.so
+[16.224s] -- Set runtime path of "/home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.224s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs
+[16.225s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/msg
+[16.225s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.225s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action
+[16.225s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail
+[16.226s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/dds_fastrtps
+[16.226s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__rosidl_typesupport_fastrtps_cpp.hpp
+[16.226s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp
+[16.226s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__rosidl_typesupport_fastrtps_cpp.hpp
+[16.226s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.227s] -- Set runtime path of "/home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.227s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs
+[16.228s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/msg
+[16.228s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.228s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action
+[16.229s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail
+[16.229s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__rosidl_typesupport_introspection_c.h
+[16.229s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__rosidl_typesupport_introspection_c.h
+[16.229s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__type_support.c
+[16.230s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__type_support.c
+[16.230s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__type_support.c
+[16.230s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__rosidl_typesupport_introspection_c.h
+[16.230s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_introspection_c.so
+[16.230s] -- Set runtime path of "/home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.231s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_c.so
+[16.232s] -- Set runtime path of "/home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_c.so" to ""
+[16.232s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs
+[16.233s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action
+[16.233s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/pick_and_place.hpp
+[16.233s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/robot.hpp
+[16.233s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/gripper.hpp
+[16.234s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail
+[16.234s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__traits.hpp
+[16.234s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__struct.hpp
+[16.235s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__struct.hpp
+[16.235s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__builder.hpp
+[16.235s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__traits.hpp
+[16.235s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__builder.hpp
+[16.235s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__traits.hpp
+[16.236s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__builder.hpp
+[16.236s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__struct.hpp
+[16.236s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs
+[16.237s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action
+[16.237s] -- Up-to-date: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail
+[16.237s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__type_support.cpp
+[16.237s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__rosidl_typesupport_introspection_cpp.hpp
+[16.238s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__type_support.cpp
+[16.238s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/pick_and_place__type_support.cpp
+[16.238s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/robot__rosidl_typesupport_introspection_cpp.hpp
+[16.238s] -- Installing: /home/aditya/rsp/install/pnp_msgs/include/pnp_msgs/action/detail/gripper__rosidl_typesupport_introspection_cpp.hpp
+[16.239s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_introspection_cpp.so
+[16.239s] -- Set runtime path of "/home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.239s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_cpp.so
+[16.240s] -- Set runtime path of "/home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__rosidl_typesupport_cpp.so" to ""
+[16.240s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/environment/pythonpath.sh
+[16.241s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/environment/pythonpath.dsv
+[16.241s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/__init__.py
+[16.290s] Compiling '/home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/__init__.py'...
+[16.298s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/action
+[16.298s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/action/_pick_and_place.py
+[16.299s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/action/__init__.py
+[16.299s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/action/_gripper_s.c
+[16.299s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/action/_gripper.py
+[16.299s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/action/_robot_s.c
+[16.300s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/action/_pick_and_place_s.c
+[16.300s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/action/_robot.py
+[16.300s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/pnp_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[16.301s] -- Set runtime path of "/home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/pnp_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.301s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/pnp_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[16.302s] -- Set runtime path of "/home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/pnp_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.303s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/pnp_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[16.304s] -- Set runtime path of "/home/aditya/rsp/install/pnp_msgs/lib/python3.8/site-packages/pnp_msgs/pnp_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.304s] -- Installing: /home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__python.so
+[16.305s] -- Set runtime path of "/home/aditya/rsp/install/pnp_msgs/lib/libpnp_msgs__python.so" to ""
+[16.305s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/action/Gripper.idl
+[16.306s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/action/PickAndPlace.idl
+[16.306s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/action/Robot.idl
+[16.306s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/action/Gripper.action
+[16.306s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/action/PickAndPlace.action
+[16.306s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/action/Robot.action
+[16.307s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/ament_index/resource_index/package_run_dependencies/pnp_msgs
+[16.307s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/ament_index/resource_index/parent_prefix_path/pnp_msgs
+[16.307s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/environment/ament_prefix_path.sh
+[16.307s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/environment/ament_prefix_path.dsv
+[16.308s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/environment/path.sh
+[16.308s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/environment/path.dsv
+[16.308s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/local_setup.bash
+[16.308s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/local_setup.sh
+[16.309s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/local_setup.zsh
+[16.309s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/local_setup.dsv
+[16.309s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/package.dsv
+[16.310s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/ament_index/resource_index/packages/pnp_msgs
+[16.310s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs__rosidl_generator_cExport.cmake
+[16.310s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.311s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.311s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.311s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs__rosidl_typesupport_cExport.cmake
+[16.314s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.314s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs__rosidl_generator_cppExport.cmake
+[16.315s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.315s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.315s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs__rosidl_typesupport_cppExport.cmake
+[16.315s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.316s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/rosidl_cmake-extras.cmake
+[16.316s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.316s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.316s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.316s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.316s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.317s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.317s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgsConfig.cmake
+[16.317s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgsConfig-version.cmake
+[16.317s] -- Installing: /home/aditya/rsp/install/pnp_msgs/share/pnp_msgs/package.xml
+[16.326s] Invoked command in '/home/aditya/rsp/build/pnp_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aditya/rsp/install/turtles:/home/aditya/rsp/install/robot_gripper:/home/aditya/rsp/install/robot_description:/home/aditya/rsp/install/pnp_actionlib:/home/aditya/rsp/install/pnp_msgs:/home/aditya/rsp/install/gripper_description:/home/aditya/rsp/install/edumip_gazebo:/home/aditya/rsp/install/edumip_description:/home/aditya/rsp/install/assignment1_subpub:/home/aditya/rsp/install/assignment1_srvcli:/home/aditya/rsp/install/assignment1_msgs:/opt/ros/galactic:/home/aditya/catkin_ws/devel:/opt/ros/noetic /usr/bin/cmake --install /home/aditya/rsp/build/pnp_msgs
