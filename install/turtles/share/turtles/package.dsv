@@ -1,8 +1,0 @@
-source;share/turtles/hook/cmake_prefix_path.ps1
-source;share/turtles/hook/cmake_prefix_path.dsv
-source;share/turtles/hook/cmake_prefix_path.sh
-source;share/turtles/local_setup.bash
-source;share/turtles/local_setup.dsv
-source;share/turtles/local_setup.ps1
-source;share/turtles/local_setup.sh
-source;share/turtles/local_setup.zsh
