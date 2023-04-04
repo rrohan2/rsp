@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="EDUMIP" version="2" xmlns:xacro="http://www.ros.org/wiki/xacro" xmlns:ros="http://www.ros.org/wiki/ros2">
+
+	<!-- Balance xacro -->
+	<xacro:macro name="balance" params="left_joint right_joint wheel_separation wheel_radius">
+
+	  	<gazebo>
+			<plugin filename="edumip_balance_ros_gazebo_plugin" name="ignition::gazebo::systems::EdumipBalanceRosPlugin">
+				<left_joint> ${left_joint} </left_joint>
+				<right_joint> ${right_joint} </right_joint>
+				<wheel_separation> ${wheel_separation} </wheel_separation>
+				<wheel_radius> ${wheel_radius} </wheel_radius>
+			</plugin>
+    	</gazebo>
+
+	</xacro:macro>
+
+</robot>

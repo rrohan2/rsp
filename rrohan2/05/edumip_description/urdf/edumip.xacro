@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <robot name="EDUMIP" version="2" xmlns:xacro="http://www.ros.org/wiki/xacro" xmlns:ros="http://www.ros.org/wiki/ros2">
 
-	<xacro:property name="wheel_separation" value="0.070" />
-	<xacro:property name="wheel_radius" value="0.034" />
+	 
 	<xacro:property name="wheel_width" value="0.010" />
 	<xacro:property name="body_height" value="0.1" />
 	<xacro:property name="body_width" value="0.050" />
 	<xacro:property name="body_length" value="0.035" />
 	<xacro:property name="PI" value="3.1415926535897931"/>
+	<xacro:property name="wheel_separation" value="0.070" />
+  	<xacro:property name="wheel_radius" value="0.034" />
+
+	<xacro:include filename="$(find edumip_description)/urdf/gazebo.xacro" />
+	<xacro:balance left_joint="left_wheel_joint" right_joint="right_wheel_joint" wheel_separation="${wheel_separation}" wheel_radius="${wheel_radius}">
+    </xacro:balance>
 
 	<!-- Wheel xacro -->
 	<xacro:macro name="wheel" params="prefix width radius *origin">
@@ -89,6 +94,13 @@
 		<xacro:wheel prefix="right" width="${wheel_width}" radius="${wheel_radius}">
 			<origin xyz="0 -${0.5*wheel_separation} 0" rpy="0 0 0"/>
 		</xacro:wheel>
+
+		<gazebo>
+			<plugin filename="tot_plugin" name="ignition::gazebo::systems::TotPlugin">
+				<sensor1> towerA </sensor1>
+				<sensor2> towerB </sensor2>
+			</plugin>
+		</gazebo>
 
 	</xacro:macro>
 

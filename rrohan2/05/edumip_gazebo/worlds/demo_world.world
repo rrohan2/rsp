@@ -5,7 +5,6 @@
             <max_step_size>0.001</max_step_size>
             <real_time_factor>1.0</real_time_factor>
         </physics>
-        <gravity>0 0 0</gravity>
         <plugin filename="libignition-gazebo-physics-system.so" name="ignition::gazebo::systems::Physics">
         </plugin>
         <plugin filename="libignition-gazebo-user-commands-system.so" name="ignition::gazebo::systems::UserCommands">
@@ -44,7 +43,7 @@
 
                 <play_pause>true</play_pause>
                 <step>true</step>
-                <start_paused>true</start_paused>
+                <start_paused>false</start_paused>
                 <service>/world/world_demo/control</service>
                 <stats_topic>/world/world_demo/stats</stats_topic>
             </plugin>

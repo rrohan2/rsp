@@ -6,11 +6,15 @@ from launch.actions import ExecuteProcess, DeclareLaunchArgument, RegisterEventH
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 
+from launch.actions import IncludeLaunchDescription
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+
 
 def generate_launch_description():
     os.environ["IGN_GAZEBO_RESOURCE_PATH"] = os.path.join(
         get_package_share_directory('edumip_description'), 'urdf')
-
+    os.environ["IGN_GAZEBO_SYSTEM_PLUGIN_PATH"] = get_package_share_directory('edumip_balance_ros_gazebo_plugin') + ":" + get_package_share_directory('edumip_tot_plugin')
+    
     description_package = LaunchConfiguration("description_package")
 
     declared_arguments = []
@@ -41,11 +45,6 @@ def generate_launch_description():
         parameters=[robot_description],
     )
 
-    joint_state_publisher_node = Node(
-        package="joint_state_publisher_gui",
-        executable="joint_state_publisher_gui"
-    )
-
     rviz_config_file = PathJoinSubstitution(
         [FindPackageShare("edumip_gazebo"), "rviz", "config.rviz"]
     )
@@ -59,17 +58,23 @@ def generate_launch_description():
         arguments=["-d", rviz_config_file],
     )
 
-    gazebo = ExecuteProcess(
-        cmd=[[
-            'ign gazebo ',
-            PathJoinSubstitution([
-                FindPackageShare('edumip_gazebo'),
-                'worlds',
-                'my_world.world '
-            ]),
-        ]],
-        shell=True
-    )
+    # gazebo = ExecuteProcess(
+    #     cmd=[[
+    #         'ign gazebo ',
+    #         "-v 4 ",
+    #         PathJoinSubstitution([
+    #             FindPackageShare('edumip_gazebo'),
+    #             'worlds',
+    #             'tot.world '
+    #         ]),
+    #     ]],
+    #     shell=True
+    # )
+
+    gazebo=IncludeLaunchDescription( PythonLaunchDescriptionSource(
+                [os.path.join(get_package_share_directory('ros_ign_gazebo'),'launch', 'ign_gazebo.launch.py')]),
+                launch_arguments=[('ign_args', ["-v 4 ",PathJoinSubstitution([FindPackageShare('edumip_gazebo'),'worlds','tot.world ']),])]
+            )
 
     create_node = Node(
         package='ros_ign_gazebo',
@@ -92,10 +97,50 @@ def generate_launch_description():
         executable='parameter_bridge',
         arguments=[
             '/clock@rosgraph_msgs/msg/Clock@ignition.msgs.Clock',
-            'world/world_demo/model/EDUMIP/joint_state@sensor_msgs/msg/JointState@ignition.msgs.Model',
+            'world/tot/model/EDUMIP/joint_state@sensor_msgs/msg/JointState@ignition.msgs.Model',
         ],
         remappings=[
-            ('/world/world_demo/model/EDUMIP/joint_state', 'joint_states'),
+            ('/world/tot/model/EDUMIP/joint_state', 'joint_states'),
+        ],
+        output='screen'
+    )
+
+    cmd_vel_bridge = Node(
+        package='ros_ign_bridge',
+        executable='parameter_bridge',
+        arguments=[
+            '/clock@rosgraph_msgs/msg/Clock@ignition.msgs.Clock',
+            '/model/EDUMIP/cmd_vel@geometry_msgs/msg/Twist@ignition.msgs.Twist',
+        ],
+        output='screen'
+    )
+
+    odom_bridge = Node(
+        package='ros_ign_bridge',
+        executable='parameter_bridge',
+        arguments=[
+            '/clock@rosgraph_msgs/msg/Clock@ignition.msgs.Clock',
+            '/model/EDUMIP/odometry@nav_msgs/msg/Odometry@ignition.msgs.Odometry',
+        ],
+        output='screen'
+    )
+
+    edumip_sensor1_bridge = Node(
+        package='ros_ign_bridge',
+        executable='parameter_bridge',
+        arguments=[
+            '/clock@rosgraph_msgs/msg/Clock@ignition.msgs.Clock',
+            '/tot/robot_pose1@geometry_msgs/msg/PoseStamped@ignition.msgs.Pose',
+        ],
+        output='screen'
+    )
+
+    edumip_sensor2_bridge = Node(
+        package='ros_ign_bridge',
+        executable='parameter_bridge',
+        arguments=[
+            '/clock@rosgraph_msgs/msg/Clock@ignition.msgs.Clock',
+            '/tot/robot_pose2@geometry_msgs/msg/PoseStamped@ignition.msgs.Pose',
         ],
         output='screen'
     )
@@ -119,6 +164,10 @@ def generate_launch_description():
         gazebo,
         create_node,
         sensor_bridge,
+        cmd_vel_bridge,
+        odom_bridge,
+        edumip_sensor1_bridge,
+        edumip_sensor2_bridge,
         joint_bridge,
         static_tf,
     ])

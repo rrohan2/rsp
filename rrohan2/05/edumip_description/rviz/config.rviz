@@ -54,6 +54,8 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
+        EDUMIP/base_link/sonar:
+          Value: true
         base_link:
           Value: true
         left_wheel:
@@ -62,7 +64,7 @@ Visualization Manager:
           Value: true
         sonar_link:
           Value: true
-      Marker Scale: 0.5
+      Marker Scale: 0.20000000298023224
       Name: TF
       Show Arrows: true
       Show Axes: true
@@ -74,7 +76,8 @@ Visualization Manager:
           right_wheel:
             {}
           sonar_link:
-            {}
+            EDUMIP/base_link/sonar:
+              {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -87,7 +90,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /arm/robot_description
+        Value: /robot_description
       Enabled: true
       Links:
         All Links Enabled: true
@@ -114,7 +117,6 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
       Name: RobotModel
       TF Prefix: ""
       Update Interval: 0
@@ -181,10 +183,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.13539746403694153
+      Pitch: 0.1553974449634552
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.8735857009887695
+      Yaw: 4.708585262298584
     Saved: ~
 Window Geometry:
   Displays:

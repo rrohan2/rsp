@@ -1,12 +1,18 @@
+import os
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, RegisterEventHandler, TimerAction
 from launch.event_handlers import OnProcessStart
 from launch.substitutions import Command, FindExecutable, LaunchConfiguration, PathJoinSubstitution
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
-
+from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
+    os.environ["IGN_GAZEBO_RESOURCE_PATH"] = os.path.join(
+        get_package_share_directory('edumip_description'), 'urdf')
+    os.environ["IGN_GAZEBO_RESOURCE_PATH"] = os.path.join(
+        get_package_share_directory('edumip_balance_ros_gazebo_plugin'))
+
     # Declare arguments
     declared_arguments = []
     declared_arguments.append(
@@ -16,18 +22,9 @@ def generate_launch_description():
             description="Description package of the robot.",
         )
     )
-    declared_arguments.append(
-        DeclareLaunchArgument(
-            "robot_namespace",
-            default_value="arm",
-            description="Name space witin which robot_state_ publisher and joint_state_publisher of the robot will work",
-        )
-    )
 
     # Initialize Arguments
     description_package = LaunchConfiguration("description_package")
-
-    r_namespace = LaunchConfiguration("robot_namespace")
 
     # Get URDF via xacro
     robot_description_content = Command(
@@ -43,17 +40,16 @@ def generate_launch_description():
 
     robot_description = {"robot_description": robot_description_content}
 
-    joint_state_publisher_node = Node(
-        package="joint_state_publisher_gui",
-        executable="joint_state_publisher_gui",
-        namespace=r_namespace
-    )
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
         output="both",
         parameters=[robot_description],
-        namespace=r_namespace
+    )
+    
+    joint_state_publisher_node = Node(
+        package="joint_state_publisher_gui",
+        executable="joint_state_publisher_gui",
     )
 
     rviz_config_file = PathJoinSubstitution(
@@ -66,7 +62,6 @@ def generate_launch_description():
         name="rviz2",
         output="log",
         arguments=["-d", rviz_config_file],
-        namespace=r_namespace
     )
 
     return LaunchDescription(

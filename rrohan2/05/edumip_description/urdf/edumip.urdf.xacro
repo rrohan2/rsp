@@ -7,6 +7,11 @@
   
   <xacro:arg name="name" default="sonar"/>
   <xacro:arg name="parent" default="base_link"/>
+  
+  <xacro:property name="wheel_separation" value="0.070" />
+  <xacro:property name="wheel_radius" value="0.034" />
+  <xacro:arg name="name" default="sonar"/>
+  <xacro:arg name="parent" default="base_link"/>
 
   <xacro:edumip />
   <xacro:hc_sr04 name="$(arg name)" parent="$(arg parent)" >
