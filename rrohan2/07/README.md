@@ -1,10 +1,13 @@
-## Clone the rsp Repository:
+## Clone my rsp Repository to your desired folder(ritwik_repo) :
 ```
+mkdir ritwik_repo
+cd ritwik_repo
 git clone https://github.com/rrohan2/rsp.git
+cd
 ```
 ## Copy the package from 07 folder to your workspace in src folder
 ```
-cp -r rsp/rrohan2/07/rtt_ur_trajectory -d <your_workspace>/src
+cp -r ritwik_repo/rsp/rrohan2/07/rtt_ur_trajectory -d <your_workspace>/src
 ```
 ## Change directory to ROS workspace
 ```
