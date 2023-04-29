@@ -1,0 +1,23 @@
+repositories:
+  orocos_toolchain:
+    type: git
+    url: https://github.com/orocos-toolchain/orocos_toolchain.git
+    version: ros2
+  ros2_rtt_typekits:
+    type: git
+    url: https://github.com/simonleonard/ros2_rtt_typekits.git
+    version: master
+  rtt_ros2_integration:
+    type: git
+    url: https://github.com/simonleonard/rtt_ros2_integration.git
+    version: feature/add-rtt_tf2
+  rtt_ros2_common_interfaces:
+    type: git
+    url: https://github.com/simonleonard/rtt_ros2_common_interfaces
+    version: master
+  reflexxes_type2:
+    type: git
+    url: https://github.com/rrohan2/ros-reflexxes.git
+    version: main
+
+  
