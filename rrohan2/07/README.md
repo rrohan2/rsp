@@ -8,7 +8,7 @@ cp -r rsp/rrohan2/07/rtt_ur_trajectory -d <your_workspace>/src
 ```
 ## Change directory to ROS workspace
 ```
-cd <ROS workspace path>
+cd <your_workspace>
 ```
 ## Source ROS environment
 ```
