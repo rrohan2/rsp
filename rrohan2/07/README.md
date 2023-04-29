@@ -30,7 +30,7 @@ rosdep update --include-eol-distros
 ```
 colcon build --packages-select orocos_toolchain
 source install/setup.bash
-rosdep install --from-paths rsp/rrohan2/07 -y --ignore-src
+rosdep install --from-paths src -y --ignore-src
 ```
 ## Source the environment and build the other packages and source again
 ```
