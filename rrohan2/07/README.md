@@ -4,7 +4,7 @@ git clone https://github.com/rrohan2/rsp.git
 ```
 ## Copy the package from 07 folder to your workspace in src folder
 ```
-cp -r rsp/rrohan2/07/rtt_ur_trajectory -d <ROS workspace path>/src
+cp -r rsp/rrohan2/07/rtt_ur_trajectory -d <your_workspace>/src
 ```
 ## Change directory to ROS workspace
 ```
@@ -29,10 +29,11 @@ colcon build --packages-select orocos_toolchain
 source install/setup.bash
 rosdep install --from-paths rsp/rrohan2/07 -y --ignore-src
 ```
-## Source the environment and build the other packages
+## Source the environment and build the other packages and source again
 ```
 source install/setup.bash
 colcon build
+source install/setup.bash
 ```
 ## Launching rviz and rqtconfig to simulate UR5
 ```
