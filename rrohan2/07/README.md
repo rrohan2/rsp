@@ -7,7 +7,7 @@ cd
 ```
 ## Copy the package from 07 folder to your workspace in src folder
 ```
-cp -r ritwik_repo/rsp/rrohan2/07/rtt_ur_trajectory -d <your_workspace>/src
+cp -r ritwik_repo/rsp/rrohan2/07 -d <your_workspace>/src
 ```
 ## Change directory to ROS workspace
 ```
