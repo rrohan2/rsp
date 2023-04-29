@@ -35,7 +35,7 @@ rosdep install --from-paths src -y --ignore-src
 ## Source the environment and build the other packages and source again
 ```
 source install/setup.bash
-colcon build -- executor sequential
+colcon build --executor sequential
 source install/setup.bash
 ```
 ## Write the following command to launch ur5 in rviz with rqtconfig
