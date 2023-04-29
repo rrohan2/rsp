@@ -19,7 +19,7 @@ source /opt/ros/galactic/setup.bash
 ```
 ## Import the required git repositories using .repos file (located in rtt_ur_trajectory package)
 ```
-vcs import src < rsp/rrohan2/07/rtt_ur_trajectory/rsp_hw.repos
+vcs import src < ritwik_repo/rsp/rrohan2/07/rtt_ur_trajectory/rsp_hw.repos
 ```
 ## Initialize rosdep and update
 ```
