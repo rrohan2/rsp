@@ -35,7 +35,7 @@ source install/setup.bash
 colcon build
 source install/setup.bash
 ```
-## Launching rviz and rqtconfig to simulate UR5
+## Write the following command to launch ur5 in rviz with rqtconfig
 ```
 ros2 launch rtt_ur_trajectory rtt_ur_traj.launch.py
 ```
